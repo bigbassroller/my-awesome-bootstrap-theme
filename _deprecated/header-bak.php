@@ -7,7 +7,7 @@
  * @package My Awesome Bootstrap Theme
  */
 ?><!DOCTYPE html>
-<html data-ng-app="app" <?php language_attributes(); ?>>
+<html ng-app="app" class="no-js" <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">

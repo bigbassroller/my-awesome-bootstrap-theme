@@ -15,7 +15,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+			<h1>I am in the index.php.</h1>
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
