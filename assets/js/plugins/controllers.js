@@ -5,3 +5,4 @@ app.controller('HomeCtrl', ['$scope', 'Posts', function ($scope, Posts) {
 		console.log($scope.posts);
 	});
 }]);
+

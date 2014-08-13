@@ -39,7 +39,7 @@ function my_awesome_bootstrap_theme_setup() {
 	 *
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
-	//add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -85,7 +85,6 @@ function my_awesome_bootstrap_theme_scripts() {
 		wp_enqueue_script( 'button', get_template_directory_uri() . '/assets/js/button.js', array('jquery'), false, true );
 		wp_enqueue_script( 'carousel', get_template_directory_uri() . '/assets/js/carousel.js', array('jquery'), false, true );
 		wp_enqueue_script( 'collapse', get_template_directory_uri() . '/assets/js/collapse.js', array('jquery'), false, true );
-		wp_enqueue_script( 'customizer', get_template_directory_uri() . '/assets/js/customizer.js', array('jquery'), false, true );
 		wp_enqueue_script( 'dropdown', get_template_directory_uri() . '/assets/js/dropdown.js', array('jquery'), false, true );
 		wp_enqueue_script( 'modal', get_template_directory_uri() . '/assets/js/modal.js', array('jquery'), false, true );
 		wp_enqueue_script( 'navigation', get_template_directory_uri() . '/assets/js/navigation.js', array('jquery'), false, true );
