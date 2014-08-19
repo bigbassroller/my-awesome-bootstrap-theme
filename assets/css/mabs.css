@@ -5885,3 +5885,17 @@ td.visible-print {
     display: none !important;
   }
 }
+.aligncenter {
+  display: table;
+  height: auto;
+  margin: 0 auto;
+  width: auto;
+}
+.alignleft {
+  float: left;
+  margin-right: 20px;
+}
+.ng-scope {
+  display: inline-block;
+  margin: 20px auto;
+}
