@@ -14,7 +14,7 @@
 
 function test_ajax()
 {
-	header( "content-type: applications/json" );
+	// header( "content-type: applications/json" );
 	echo json_encode($query->get_posts());
 	die();
 }
